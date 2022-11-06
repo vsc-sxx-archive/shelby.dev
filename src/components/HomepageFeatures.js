@@ -9,22 +9,16 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_fast_loading.svg').default,
     description: (
       <>
-        With deep, empirically-proven optimizations throughout the system,
-        ProtonAOSP is faster and smoother than other Android distributions.
-        <br />
-        <Link to="/features#performance">Learn more</Link>
+        ROM's by ShelbyProject is faster and smoother than other Android distributions.
       </>
     ),
   },
   {
-    title: 'Clean UI design',
+    title: 'Open-Source',
     Svg: require('@site/static/img/undraw_design_components.svg').default,
     description: (
       <>
-        ProtonAOSP's typography, attention to details, and colors picked with
-        state-of-the-art color science make for a clean and elegant UI.
-        <br />
-        <Link to="/features#ui">Learn more</Link>
+        We open the tree after we fix all the bugs.
       </>
     ),
   },
@@ -33,10 +27,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_private_data.svg').default,
     description: (
       <>
-        ProtonAOSP helps keep your data private with camera and microphone
-        indicators, internet &amp; sensor permissions, and microG support.
-        <br />
-        <Link to="/features#privacy-and-security">Learn more</Link>
+        ShelbyProject never asks for your personal data.
       </>
     ),
   },

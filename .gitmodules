@@ -1,4 +1,0 @@
-[submodule "android-webinstall"]
-	path = android-webinstall
-	url = https://github.com/kdrag0n/android-webinstall
-	branch = master

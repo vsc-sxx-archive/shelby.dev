@@ -18,19 +18,19 @@ function remarkSmartypants(options) {
 }
 
 module.exports = {
-  title: 'ProtonAOSP',
-  tagline: 'Minimal Android fork for design and performance',
+  title: 'ShelbyProject.',
+  tagline: 'System has been destroyed?...',
   url: 'https://protonaosp.org',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
-  organizationName: 'ProtonAOSP',
-  projectName: 'ProtonAOSP',
+  organizationName: 'shelbydev',
+  projectName: 'shelbydev',
   titleDelimiter: '·',
   themeConfig: {
     navbar: {
-      title: 'ProtonAOSP',
+      title: 'ShelbyProject',
       hideOnScroll: true,
       logo: {
         alt: 'ProtonAOSP Logo',
@@ -39,22 +39,7 @@ module.exports = {
       },
       items: [
         {
-          to: 'overview',
-          label: 'Overview',
-          position: 'left',
-        },
-        {
-          to: 'features',
-          label: 'Features',
-          position: 'left',
-        },
-        {
-          to: 'screenshots',
-          label: 'Screenshots',
-          position: 'left',
-        },
-        {
-          to: 'faq',
+          to: '/getting-started/faq',
           label: 'FAQ',
           position: 'left',
         },
@@ -62,13 +47,7 @@ module.exports = {
           to: 'community',
           label: 'Community',
           position: 'left',
-        },
-
-        {
-          to: 'install/web',
-          label: 'Install',
-          position: 'right',
-        },
+        }
       ],
     },
     footer: {
@@ -77,20 +56,8 @@ module.exports = {
           title: 'Discover',
           items: [
             {
-              label: 'Overview',
-              to: '/overview',
-            },
-            {
-              label: 'Features',
-              to: '/features',
-            },
-            {
-              label: 'Screenshots',
-              to: '/screenshots',
-            },
-            {
               label: 'FAQ',
-              to: '/faq',
+              to: '/getting-started/faq',
             },
           ],
         },
@@ -99,15 +66,11 @@ module.exports = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/ProtonAOSP',
+              href: 'https://github.com/ShelbyHell',
             },
             {
               label: 'Telegram',
-              href: 'https://t.me/protonaosp',
-            },
-            {
-              label: 'Developer',
-              href: 'https://kdrag0n.dev/',
+              href: 'https://t.me/ShelbyHell',
             },
             {
               label: 'More',
@@ -116,33 +79,8 @@ module.exports = {
           ],
         },
         {
-          title: 'Developers',
-          items: [
-            {
-              label: 'Source code',
-              to: '/developers/download',
-            },
-            {
-              label: 'Build',
-              to: '/developers/build',
-            },
-            {
-              label: 'Contribute',
-              to: '/developers/contribute',
-            },
-            {
-              label: 'Technical details',
-              to: '/performance',
-            },
-          ],
-        },
-        {
           title: 'Resources',
           items: [
-            {
-              label: 'Donate',
-              to: '/donate',
-            },
             {
               label: 'Terms of service',
               href: 'https://kdrag0n.dev/terms-of-service',
@@ -154,7 +92,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} <a href="https://kdrag0n.dev/">Danny Lin (kdrag0n)</a><br><span style="color:var(--ifm-footer-link-color);display:inline-block;padding-top:1em">Android is a trademark of Google LLC.</span><br><span style="color:var(--ifm-footer-link-color)">ProtonAOSP is not affiliated with Proton AG.</span>`,
+      copyright: `Copyright © ${new Date().getFullYear()} ShelbyProject, Inc.`,
     },
     prism: {
       theme: require('prism-react-renderer/themes/nightOwlLight'),
